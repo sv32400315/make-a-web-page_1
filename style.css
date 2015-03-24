@@ -1,0 +1,87 @@
+*{
+	-webkit-boxsizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	Box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: Black;
+    font-family: Cooper Black;
+}
+/* CSS is pretty fun. */
+h2 {
+    margin: 10px;
+}
+body {
+    font-family: Helvetica;
+    background-color: gray;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+  list-style-type: none; /* this removes the bullets that show up by default in unordered lists */  
+}
+
+li {
+  font-size: 1.0em;/* em is another unit to     specify font sizes (like px) this "em" refers to something different than the <em> tag. */
+  line-height: 2em;
+}
+
+a {
+   color: black;
+}
+
+.TOC-lesson {
+    background-color: #294860;
+    border-radius: 10px;
+    color: black; 
+    padding: 7px;
+    margin: 10px
+}
+.TOC  {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 35px;
+    color: black;
+}    
+
+.lesson {
+    background-color: #294860;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+.concept  {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: #294860;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+  
